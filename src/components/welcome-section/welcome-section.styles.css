@@ -40,3 +40,14 @@ header p {
     margin: 0;
     text-align: center;
 }
+
+.blink_me {
+    margin-top: 25px;
+    animation: blinker 1s linear infinite;
+}
+  
+@keyframes blinker {
+50% {
+    opacity: 0;
+}
+}

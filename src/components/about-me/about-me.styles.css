@@ -1,0 +1,46 @@
+.about-me {
+    background-color: antiquewhite;
+    height: 70%;
+}
+
+.about-me .profile-pic img{
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.about-me .bio {
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.about-me .bio p {
+    text-align: left;
+    font-size: 1rem;
+    line-height: 150%;
+}
+
+.about-me .resume-link {
+    margin-top: 30px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.about-me-grid {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

@@ -5,12 +5,14 @@ import WelcomeSection from './components/welcome-section/welcome-section.compone
 import Projects from './components/projects/projects.component';
 import Contact from './components/contact/contact.component';
 import Footer from './components/footer/footer.component';
+import AboutMe from './components/about-me/about-me.component';
 
 function App() {
   return (
     <>
       <Navbar/>
       <WelcomeSection/>
+      <AboutMe/>
       <Projects/>
       <Contact/>
       <Footer/>
