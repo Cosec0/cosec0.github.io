@@ -12,7 +12,7 @@ function Skills() {
             <div class="skills-container">
                 {
                     skills.map(skill => (
-                        <Skill id={skill.skill_id} {...skill}/>
+                        <Skill key={skill.skill_id} {...skill}/>
                     ))
                 }
             </div>
