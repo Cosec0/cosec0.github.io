@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# SPA Portfolio made using React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Portfolio link](https://cosec0.github.io/).
 
 ## Available Scripts
 
