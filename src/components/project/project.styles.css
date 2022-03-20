@@ -1,0 +1,29 @@
+.project-card {
+    margin: 10px;
+    max-width: 240px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    background-color: aliceblue;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.project-card img {
+    max-width: 100%;
+}
+
+.project-card p {
+    font-size: 20px;
+    margin-top: 10px; 
+    color: #000;
+}
+
+.project-card i {
+    font-size: 25px;
+    margin: 10px; 
+}
