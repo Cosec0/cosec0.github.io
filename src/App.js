@@ -6,6 +6,7 @@ import Projects from './components/projects/projects.component';
 import Contact from './components/contact/contact.component';
 import Footer from './components/footer/footer.component';
 import AboutMe from './components/about-me/about-me.component';
+import Skills from './components/skills-list/skills-list.component';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Navbar/>
       <WelcomeSection/>
       <AboutMe/>
+      <Skills/>
       <Projects/>
       <Contact/>
       <Footer/>

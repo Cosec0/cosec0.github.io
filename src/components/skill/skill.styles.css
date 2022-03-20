@@ -1,0 +1,19 @@
+.skill {
+    margin: 15px;
+}
+
+.skill-title {
+    margin: 10px;
+    max-width: 240px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.skill:hover {
+    transform: scale(1.05);
+}
+
+.skill img {
+    width: 100px;
+    height: 100px;
+}
