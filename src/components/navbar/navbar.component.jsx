@@ -7,17 +7,20 @@ const Navbar = () => {
     return (
         <nav className='navbar'>
             <ul className={isMobile ? 'nav-links-mobile' : 'nav-links'} onClick={() => setIsMobile(false)}>
-                <a href='#' className='nav-link'>
-                    <li>Home</li>
+                <a href='#about-me' className='nav-link'>
+                    <li>About Me</li>
                 </a>
-                <a href='#' className='nav-link'>
-                    <li>About</li>
+                <a href='https://drive.google.com/file/d/1eJqJBEdhtNbkU0Jq8zL0ISfYjxX1aE_h/view' target='_blank' rel="noreferrer" className='nav-link'>
+                    <li>Resume <i class="fa-solid fa-arrow-up-right-from-square"></i></li>
                 </a>
-                <a href='#' className='nav-link'>
+                <a href='#skills' className='nav-link'>
+                    <li>Skills</li>
+                </a>
+                <a href='#projects' className='nav-link'>
+                    <li>Projects</li>
+                </a>
+                <a href='#contact' className='nav-link'>
                     <li>Contact</li>
-                </a>
-                <a href='#' className='nav-link'>
-                    <li>Sign up</li>
                 </a>
             </ul>
             <button className='mobile-menu-icon' onClick={() => setIsMobile(prev => !prev)}>
